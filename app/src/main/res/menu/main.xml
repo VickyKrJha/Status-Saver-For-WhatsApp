@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="Share App"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_privacyPolicy"
+        android:title="Privacy Policy"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_whatsapp"
+        android:title="whatsApp"
+        android:icon="@drawable/whatsapplogo"
+        app:showAsAction="always"/>
+<!--    <item android:id="@+id/menu_aboutUs"-->
+<!--        android:title="Contact Us"-->
+<!--        android:checked="false"-->
+<!--        app:showAsAction="never"/>-->
+
+</menu>

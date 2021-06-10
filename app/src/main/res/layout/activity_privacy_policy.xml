@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PrivacyPolicy"
+    android:background="@drawable/bgcolor">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#F30707"
+    android:id="@+id/privacy"
+    android:text="Privacy Policy"
+    android:layout_margin="10dp"
+    android:fontFamily="@font/ubuntu_bold"
+    android:textStyle="bold"
+    android:textSize="44dp"
+
+    />
+    <TextView
+        android:id="@+id/policy_view"
+        android:layout_below="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:layout_marginVertical="@dimen/_6sdp"
+        android:layout_marginTop="20dp"
+        android:text="@string/privacypolicy"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="@dimen/_10sdp"
+        android:textSize="21sp" />
+
+</RelativeLayout>
+
+</ScrollView>
